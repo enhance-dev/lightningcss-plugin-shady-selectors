@@ -1,0 +1,20 @@
+{
+  "name": "lightningcss-plugin-shady-selectors",
+  "version": "1.0.0",
+  "description": "Lightningcss plugin for transforming Shadow DOM selectors to Light DOM selectors",
+  "main": "plugin.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "tape test.mjs | tap-arc"
+  },
+  "keywords": [
+    "lightningcss-plugin"
+  ],
+  "author": "Kristofer Joseph @dam",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "lightningcss": "^1.24.0",
+    "tap-arc": "^1.2.2",
+    "tape": "^5.7.5"
+  }
+}
